@@ -1,0 +1,256 @@
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+    color:black;
+    padding: 10px 10px;
+}
+nav a:active{
+    color: blue;
+}
+nav a:hover{
+    color: blue;
+    border-bottom: blue 2px solid;
+}
+nav i:hover{
+    color: blue;
+}
+.search{
+    display: inline-block;
+    margin-left: 100px;
+}
+.notification{
+    margin-left: 20px;
+    position: relative;
+    font-size: 20px;
+    display: inline-block;
+}
+.icon-badge-icon{
+    font-size: 30px;
+  position: relative;
+}
+.badge{
+    background-color: red;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 0px;
+}
+.pages{
+    margin-left: 300px;
+}
+.logo img{
+    display: inline-block;
+    height:30px;
+    width: 120px;
+    margin-top: 5px;
+}
+.logo{
+    margin-left: 100px;
+}
+.logo , .pages{
+    display: inline-block;
+}
+.header{
+    height:620px;
+    background-color: rgb(247, 250, 247);
+    text-align: center;
+    margin-top: 0px;
+}
+.header h1{
+    padding-top: 280px;
+    font-size: 40px;
+}
+.header p{
+    color: gray;
+    font-size:20px;
+    margin-top: 7px;
+}
+.reg{
+    display: flex;
+    margin-top: 150px;
+    border:1px solid rgb(224, 222, 222);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+} 
+.create,.log{
+    display: inline-block;
+    
+}
+.create{
+    
+    color: white;
+    text-align: center;
+    padding: 200px 100px;
+    background-color: rgb(86, 86, 253);
+    height:200px;
+    width:400px;
+}
+.create p{
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.create a{
+   
+    text-decoration: none;
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding:6px 17px;
+    background-color: rgb(86, 86, 253);
+}
+
+
+.log input[type="username"],input[type="password"]{
+    border-bottom: 1px rgb(176, 174, 174) solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 70%;
+   
+    margin-top: 30px;
+    height: 40px;
+   
+}
+.check{
+    margin-top: 40px;
+margin-bottom: 60px;
+color:gray;
+   
+}
+.log{
+   padding-left: 100px;
+    width: 450px;
+   margin-left: 0px;
+    height: 600px;
+}
+.head{
+   margin-top: 100px;
+   margin-left: 100px;
+   display: inline-block;
+}
+.login{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 65%;
+    padding: 5px 0px;
+    border: 1px white solid;
+    border-radius: 10px;
+    margin-left: 50px;
+   
+    background-color: rgb(87, 87, 247);
+}
+
+.log input{
+    display: inline-block;
+}
+.forget{
+    color: gray;
+    margin-left: 150px;
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+}
+
+.footer{
+    background-color: rgba(0, 0, 33, 0.925);
+    padding: 100px 150px;
+    height:500px;
+    margin-top: 400px;
+    margin-bottom: 0px;
+   
+}
+.footer h1,h2{
+    color: white;
+}
+.footer h2{
+    display: inline;
+}
+
+.footer a{
+    text-decoration: none;
+}
+.foot1,.foot4{
+    display: inline-block;
+    width:22%;
+    margin-left: 10px;
+    height:300px;
+}
+pre{
+    display: inline;
+    color: gray;
+}
+.foot2,.foot3{
+    display: inline-block;
+    width: 15%;
+    margin-left: 100px;
+    height:300px;
+   
+   
+}
+.foot3 img{
+    margin-bottom: 20px;
+    
+}
+.foot4 p{
+    margin-left: 20px;
+}
+.foot1{
+    line-height: 30px;
+    font-size: large;
+    padding-bottom: 50px;
+    margin-right: 35px;
+    padding:00px 0px;
+
+}
+.foot2 a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    line-height: 20px;
+    font-size: large;
+    margin-left: 20px;
+    margin-bottom: 65px;
+    
+    }
+.foot2 h1{
+    margin-left: 20px;
+}
+.foot{
+    padding-top: 0px;
+}
+.foot4 i{
+color:blue;
+font-size: 25px;
+}
+.foot4{
+    margin-left: 42px;
+    padding-top: 100px;
+   
+    
+}
+.footer2{
+    background-color:rgba(0, 0, 44, 0.925);
+    color: white;
+    margin-top: 0px;
+    height:20px;
+    text-align: center;
+    padding: 40px;
+}
+.foot1 h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.foot4 p{
+    margin-left: 30px;
+    color: gray;
+}

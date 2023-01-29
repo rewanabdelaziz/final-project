@@ -1,0 +1,265 @@
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+    color:black;
+    padding: 10px 10px;
+}
+nav a:active{
+    color: blue;
+}
+nav a:hover{
+    color: blue;
+    border-bottom: blue 2px solid;
+}
+nav i:hover{
+    color: blue;
+}
+.search{
+    display: inline-block;
+    margin-left: 100px;
+}
+.notification{
+    margin-left: 20px;
+    position: relative;
+    font-size: 20px;
+    display: inline-block;
+}
+.icon-badge-icon{
+    font-size: 30px;
+  position: relative;
+}
+.badge{
+    background-color: red;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 0px;
+}
+.pages{
+    margin-left: 300px;
+}
+.logo img{
+    display: inline-block;
+    height:30px;
+    width: 120px;
+    margin-top: 5px;
+}
+.logo{
+    margin-left: 100px;
+}
+.logo , .pages{
+    display: inline-block;
+}
+.header{
+    height:620px;
+    background-color: rgb(247, 250, 247);
+    text-align: center;
+    margin-top: 0px;
+}
+.header h1{
+    padding-top: 280px;
+    font-size: 40px;
+}
+.header p{
+    color: gray;
+    font-size:20px;
+    margin-top: 7px;
+}
+.contain{
+    margin-top: 200px;
+}
+.map{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+iframe{
+    width: 80%;
+    height: 500px;
+    filter: invert(100%);
+}
+.contactus h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color:black;
+    display: inline;
+}
+.contactus p{
+    margin-left: 25px;
+    color: gray;
+}
+.contactus{
+    display: flex;
+}
+.contactus i{
+    color:blue;
+    font-size: 25px;
+}
+.info{
+    margin-left: 150px;
+    margin-top: 100px;
+    display: inline-block;
+}
+.contact{
+    margin-top: 90px;
+    margin-left: 150px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 350px;
+}
+.message{
+    margin-top: 120px;
+    margin-left: 20px;
+    display: inline-block;
+    width:450px;
+    margin-bottom: 20px;
+}
+.contact input[type="email"]{
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 100%;
+    margin-top: 20px;
+    border: solid 1px rgb(238, 238, 238) ;
+    background-color: rgb(238, 238, 238);
+    }
+.contact input[type="username"]{
+        box-sizing: border-box;
+        padding: 10px 10px;
+        width: 100%;
+        margin-top: 20px;
+        border: solid 1px rgb(238, 238, 238) ;
+        background-color: rgb(238, 238, 238);
+        }
+.contact input[type="text"]{
+            box-sizing: border-box;
+            padding: 10px 10px;
+            width: 100%;
+            margin-top: 20px;
+            border: solid 1px rgb(238, 238, 238) ;
+            background-color: rgb(238, 238, 238);
+            }
+.message textarea{
+        box-sizing: border-box;
+        padding: 10px 10px;
+        width: 380px;
+        height:150px;
+        margin-top: 20px;
+        border: solid 1px rgb(238, 238, 238);
+        background-color: rgb(238, 238, 238);
+}
+input :placeholder-shown{
+    color: gray;
+    padding-top: 5px;
+}
+button{
+   margin-left: 1200px;
+   width: 120px;
+   height: 50px;
+   background-color: rgb(6, 6, 218);
+   color: white;
+   border: solid 1px rgb(6, 6, 218);
+}
+
+
+.footer{
+    background-color: rgba(0, 0, 33, 0.925);
+    padding: 100px 150px;
+    height:500px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+   
+}
+.footer h1,h2{
+    color: white;
+}
+.footer h2{
+    display: inline;
+}
+
+.footer a{
+    text-decoration: none;
+}
+.foot1,.foot4{
+    display: inline-block;
+    width:22%;
+    margin-left: 10px;
+    height:300px;
+}
+pre{
+    display: inline;
+    color: gray;
+}
+.foot2,.foot3{
+    display: inline-block;
+    width: 15%;
+    margin-left: 100px;
+    height:300px;
+   
+   
+}
+.foot3 img{
+    margin-bottom: 20px;
+    
+}
+.foot4 p{
+    margin-left: 20px;
+}
+.foot1{
+    line-height: 30px;
+    font-size: large;
+    padding-bottom: 50px;
+    margin-right: 35px;
+    padding:00px 0px;
+
+}
+.foot2 a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    line-height: 20px;
+    font-size: large;
+    margin-left: 20px;
+    margin-bottom: 65px;
+    
+}
+.foot2 h1{
+    margin-left: 20px;
+}
+.foot{
+    padding-top: 0px;
+}
+.foot4 i{
+color:blue;
+font-size: 25px;
+}
+.foot4{
+    margin-left: 42px;
+    padding-top: 100px;
+   
+    
+}
+.footer2{
+    background-color:rgba(0, 0, 44, 0.925);
+    color: white;
+    margin-top: 0px;
+    height:20px;
+    text-align: center;
+    padding: 40px;
+}
+.foot1 h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.foot4 p{
+    margin-left: 30px;
+    color: gray;
+}
